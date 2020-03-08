@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'polaris-page',
   templateUrl: './page.component.html'
 })
-export class PageComponent {
+export class NgxShopifyPolarisPageComponent {
   @Input() title: string;
 
   constructor() {}

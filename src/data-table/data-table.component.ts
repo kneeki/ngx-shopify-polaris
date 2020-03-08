@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 export interface TableHeaderColumn {
   // The type: numeric, text, header
@@ -32,13 +32,9 @@ export interface TableBodyRow {
   selector: 'polaris-data-table',
   templateUrl: './data-table.component.html',
 })
-export class DataTableComponent implements OnInit {
+export class NgxShopifyPolarisDataTableComponent {
   @Input() header_columns: Array<TableHeaderColumn> = [];
   @Input() body_data: Array<TableBodyRow> = [];
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

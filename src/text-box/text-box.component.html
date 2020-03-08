@@ -1,0 +1,28 @@
+<div class="Polaris-FormLayout__Item">
+  <div class="">
+    <div class="Polaris-Labelled__LabelWrapper">
+      <div class="Polaris-Label">
+        <label class="Polaris-Label__Text">{{ description }}</label>
+      </div>
+    </div>
+    <div class="Polaris-Connected">
+      <div class="Polaris-Connected__Item Polaris-Connected__Item--primary">
+        <div class="Polaris-TextField">
+          <input
+            [(ngModel)]="input"
+            [placeholder]="placeholder"
+            (ngModelChange)="onTextChange.next(input)"
+            class="Polaris-TextField__Input"
+            type="text"
+            aria-describedby="PolarisTextField2HelpText"
+            aria-labelledby="PolarisTextField2Label"
+            aria-invalid="false"
+            aria-multiline="false"
+            value=""
+          />
+          <div class="Polaris-TextField__Backdrop"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
