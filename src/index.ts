@@ -1,9 +1,10 @@
 import { PageComponent } from './page/page.component';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DataTableComponent } from 'data-table/data-table.component';
+import { DataTableComponent } from './data-table/data-table.component';
 
 export * from './page/page.component';
+export * from './data-table/data-table.component';
 
 @NgModule({
   imports: [
