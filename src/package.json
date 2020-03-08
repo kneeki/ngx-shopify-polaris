@@ -1,6 +1,6 @@
 {
   "name": "@kneeki/ngx-shopify-polaris",
-  "version": "0.1.0",
+  "version": "0.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/kneeki/ngx-shopify-polaris"
@@ -23,8 +23,6 @@
   "jsnext:main": "ngx-shopify-polaris.js",
   "typings": "ngx-shopify-polaris.d.ts",
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
+    "@angular/core": "^9.0.0"
   }
 }
