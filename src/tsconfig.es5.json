@@ -22,7 +22,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "ngx-shopify-polaris.js",
-    "flatModuleId": "@angular/ngx-shopify-polaris"
+    "flatModuleId": "@kneeki/ngx-shopify-polaris"
   },
   "files": [
     "./index.ts"
