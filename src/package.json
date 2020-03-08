@@ -1,20 +1,22 @@
 {
-  "name": "@angular/ngx-shopify-polaris",
+  "name": "@kneeki/ngx-shopify-polaris",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo"
+    "url": "https://github.com/kneeki/ngx-shopify-polaris"
   },
   "author": {
     "name": "kneeki",
     "email": "david.tacker@gmail.com"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "shopify",
+    "polaris"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "https://github.com/kneeki/ngx-shopify-polaris/issues"
   },
   "main": "ngx-shopify-polaris.umd.js",
   "module": "ngx-shopify-polaris.js",
@@ -24,8 +26,5 @@
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
-  },
-  "files": [
-    "../node_modules/@shopify/polaris/styles.scss"
-  ]
+  }
 }
