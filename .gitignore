@@ -36,3 +36,7 @@ dist/*
 
 # Lock files
 *-lock.json
+*.lock
+
+# Temp
+.tmp
