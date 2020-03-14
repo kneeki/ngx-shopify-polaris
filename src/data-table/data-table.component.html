@@ -40,7 +40,7 @@
       <tbody>
         <tr class="Polaris-DataTable__TableRow" *ngFor="let row of body_data">
           <td *ngFor="let column of row.columns; let i = index" class="Polaris-DataTable__Cell Polaris-DataTable__Cell--{{ column.y_align }} Polaris-DataTable__Cell--{{ column.type }} {{ column.x_align }}">
-            <span class="link" [routerLink]="column.location" *ngIf="column.is_link">
+            <span class="link" *ngIf="column.is_link">
               <span *ngIf="column.type !== 'date'">
                 {{ column.value }}
               </span>
