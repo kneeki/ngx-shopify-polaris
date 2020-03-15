@@ -25,7 +25,6 @@
     "flatModuleId": "@kneeki/ngx-shopify-polaris"
   },
   "files": [
-    "./index.ts",
-    "./index.d.ts"
+    "./index.ts"
   ]
 }

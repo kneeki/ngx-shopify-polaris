@@ -74,6 +74,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "@angular/forms": "^9.0.6",
     "@shopify/polaris": "^4.15.0"
   }
 }
